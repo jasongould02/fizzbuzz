@@ -22,8 +22,7 @@ int main( int argc, char *argv[]  ) {
     // Fizz buzz starts at one not zero
     int curNum;
     for(curNum = 1; curNum <= size; curNum++) {
-        // This is faster instead of doing these 
-        // calculations multiple times in the each if statement
+
         modfNum = curNum % fNum;
         modsNum = curNum % sNum;
 
